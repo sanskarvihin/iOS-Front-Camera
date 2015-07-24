@@ -1,0 +1,3 @@
+/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m: In function '-[FrontCameraViewController viewDidLoad]':
+/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m:41: warning: unused variable 'timerForStopVideoCapaturing'
+/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m:39: warning: unused variable 'timerForStartVideoCapaturing'

@@ -1,0 +1,1220 @@
+TFrontCamera
+v7
+r0
+t314283278.074193
+cCheck dependencies
+cCpResource build/Release-iphoneos/FrontCamera.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/Info.plist FrontCamera-Info.plist
+cCompileXIB /Users/mihir/Desktop/FrontCamera/MainWindow.xib
+cCompileXIB /Users/mihir/Desktop/FrontCamera/FrontCameraViewController.xib
+cCompileXIB /Users/mihir/Desktop/FrontCamera/Classes/CameraView.xib
+cCopyPNGFile /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/green.png green.png
+cProcessPCH /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-fipuzjftbshmfraamtblsdmleaab/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-gjmjragbrsvytgerdurboqyrrgjr/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o /Users/mihir/Desktop/FrontCamera/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/CameraView.o /Users/mihir/Desktop/FrontCamera/Classes/CameraView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o /Users/mihir/Desktop/FrontCamera/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera normal armv6
+cCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/CameraView.o /Users/mihir/Desktop/FrontCamera/Classes/CameraView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera normal armv7
+cCreateUniversalBinary /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera normal "armv6 armv7"
+cGenerateDSYMFile /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+cProcessProductPackaging "/Users/mihir/Library/MobileDevice/Provisioning Profiles/CEB8CA12-D481-4F68-BB9C-4E07B6EACEB1.mobileprovision" /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+cTouch /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent
+cCodeSign /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+cValidate /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C5B59520000000000000110
+t1281055058
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C5B401F00000000000001A7
+t1281048607
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C5B401F00000000000001E5
+t1281048607
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004BFF3B7700000000000000EB
+t1275018103
+s235
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004BFF3B7800000000000A4890
+t1275018104
+s673936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004CC1106800000000000000EB
+t1287721064
+s235
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC110680000000000094AF0
+t1287721064
+s609008
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/mihir/Desktop/FrontCamera/Classes/CameraView.h
+c000000004D08625600000000000000DD
+t1292395094
+s221
+i<UIKit/UIKit.h>
+
+N/Users/mihir/Desktop/FrontCamera/Classes/CameraView.m
+c000000004D0863F400000000000005CB
+t1292395508
+s1483
+i"CameraView.h"
+
+N/Users/mihir/Desktop/FrontCamera/Classes/CameraView.xib
+c000000004D0862560000000000001859
+t1292395094
+s6233
+
+N/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.h
+c000000004CD2771800000000000001F8
+t1288861464
+s504
+i<UIKit/UIKit.h>
+
+N/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m
+c000000004D01B2710000000000000AA0
+t1291956849
+s2720
+i"FrontCameraAppDelegate.h"
+i"FrontCameraViewController.h"
+
+N/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.h
+c000000004D0B453400000000000001EB
+t1292584244
+s491
+i<UIKit/UIKit.h>
+i<MobileCoreServices/MobileCoreServices.h>
+
+N/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m
+c000000004D11A2DE0000000000001A2C
+t1293001438
+s6700
+i"FrontCameraViewController.h"
+i"CameraView.h"
+
+N/Users/mihir/Desktop/FrontCamera/FrontCameraViewController.xib
+c000000004D0B4A03000000000000477F
+t1292585475
+s18303
+
+N/Users/mihir/Desktop/FrontCamera/FrontCamera_Prefix.pch
+c000000004CD2771800000000000000BF
+t1288861464
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mihir/Desktop/FrontCamera/MainWindow.xib
+c000000004CD277180000000000004E59
+t1288861464
+s20057
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent
+t1289304454
+s429
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/CameraView.o
+t1292587177
+s34552
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera
+t1292590476
+s18712
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera.LinkFileList
+c000000004D0B50A6000000000000020D
+t1292587174
+s525
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o
+t1292587177
+s46560
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o
+t1292590476
+s44728
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o
+t1292587177
+s6424
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/CameraView.o
+t1292587177
+s34568
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera
+t1292590476
+s18712
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera.LinkFileList
+c000000004D0B50A6000000000000020D
+t1292587174
+s525
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o
+t1292587177
+s46568
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o
+t1292590476
+s44752
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o
+t1292587177
+s6404
+
+N/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+t1292590477
+s408
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM
+t1292590476
+s102
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/CameraView.nib
+t1292587175
+s1231
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+t1292590476
+s57392
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCameraViewController.nib
+t1292587175
+s2476
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/Info.plist
+t1289304451
+s744
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/MainWindow.nib
+t1289304452
+s1689
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/PkgInfo
+t1289304451
+s8
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/ResourceRules.plist
+t1289304451
+s485
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+t1292587279
+s10337
+
+N/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/green.png
+t2
+s0
+
+N/Users/mihir/Desktop/FrontCamera/green.png
+c000000004D0B498000000000000014C2
+t1292585344
+s5314
+
+N/Users/mihir/Desktop/FrontCamera/main.m
+c000000004CD27718000000000000016E
+t1288861464
+s366
+i<UIKit/UIKit.h>
+
+N/Users/mihir/Library/MobileDevice/Provisioning Profiles/5F3362A7-7DFB-43FD-9563-B6824F4BEC60.mobileprovision
+c000000004CB85B760000000000004E66
+t1287150454
+s20070
+
+N/Users/mihir/Library/MobileDevice/Provisioning Profiles/CEB8CA12-D481-4F68-BB9C-4E07B6EACEB1.mobileprovision
+c000000004CF66EB20000000000002861
+t1291218610
+s10337
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/CameraView.h
+c000000004D08625600000000000000DD
+t1292395094
+s221
+i<UIKit/UIKit.h>
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/CameraView.m
+c000000004D0863F400000000000005CB
+t1292395508
+s1483
+i"CameraView.h"
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/CameraView.xib
+c000000004D0862560000000000001859
+t1292395094
+s6233
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.h
+c000000004CD2771800000000000001F8
+t1288861464
+s504
+i<UIKit/UIKit.h>
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m
+c000000004D01B2710000000000000AA0
+t1291956849
+s2720
+i"FrontCameraAppDelegate.h"
+i"FrontCameraViewController.h"
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.h
+c000000004D2D72FE0000000000000287
+t1294824190
+s647
+i<UIKit/UIKit.h>
+i<MobileCoreServices/MobileCoreServices.h>
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m
+c000000004D2D8AF60000000000001B4C
+t1294830326
+s6988
+i"FrontCameraViewController.h"
+i"CameraView.h"
+
+N/Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib
+c000000004D0B4A03000000000000477F
+t1292585475
+s18303
+
+N/Users/nirajpendal/Desktop/FrontCamera/FrontCamera_Prefix.pch
+c000000004CD2771800000000000000BF
+t1288861464
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib
+c000000004CD277180000000000004E59
+t1288861464
+s20057
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent
+t1289304454
+s429
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/CameraView.o
+t1292587177
+s34552
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera
+t1292590476
+s18712
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera.LinkFileList
+c000000004D0B50A6000000000000020D
+t1292587174
+s525
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o
+t1292587177
+s46560
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o
+t1292590476
+s44728
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o
+t1292587177
+s6424
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/CameraView.o
+t1292587177
+s34568
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera
+t1292590476
+s18712
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera.LinkFileList
+c000000004D0B50A6000000000000020D
+t1292587174
+s525
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o
+t1292587177
+s46568
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o
+t1292590476
+s44752
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o
+t1292587177
+s6404
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+t1294821415
+s408
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM
+t1292590476
+s102
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/CameraView.nib
+t1292587175
+s1231
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+t1292590476
+s57392
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCameraViewController.nib
+t1292587175
+s2476
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/Info.plist
+t1289304451
+s744
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/MainWindow.nib
+t1289304452
+s1689
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/PkgInfo
+t1289304451
+s8
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/ResourceRules.plist
+t1289304451
+s485
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+t1292587279
+s10337
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/green.png
+t2
+s0
+
+N/Users/nirajpendal/Desktop/FrontCamera/green.png
+c000000004D0B498000000000000014C2
+t1292585344
+s5314
+
+N/Users/nirajpendal/Desktop/FrontCamera/main.m
+c000000004CD27718000000000000016E
+t1288861464
+s366
+i<UIKit/UIKit.h>
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/Classes/FrontCameraAppDelegate.h
+c000000004CD2771800000000000001F8
+t1288861464
+s504
+i<UIKit/UIKit.h>
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/Classes/FrontCameraAppDelegate.m
+c000000004D01B2710000000000000AA0
+t1291956849
+s2720
+i"FrontCameraAppDelegate.h"
+i"FrontCameraViewController.h"
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/Classes/FrontCameraViewController.h
+c000000004D01B27400000000000001A8
+t1291956852
+s424
+i<UIKit/UIKit.h>
+i<MobileCoreServices/MobileCoreServices.h>
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/Classes/FrontCameraViewController.m
+c000000004D01B47500000000000015E8
+t1291957365
+s5608
+i"FrontCameraViewController.h"
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/FrontCameraViewController.xib
+c000000004CECE68700000000000053DD
+t1290593927
+s21469
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/FrontCamera_Prefix.pch
+c000000004CD2771800000000000000BF
+t1288861464
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/MainWindow.xib
+c000000004CD277180000000000004E59
+t1288861464
+s20057
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera
+t1289304453
+s17496
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera.LinkFileList
+c000000004CD9398300000000000001A1
+t1289304451
+s417
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o
+t1289304453
+s46524
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o
+t1289304453
+s41260
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o
+t1289304453
+s6436
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera
+t1289304453
+s17496
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera.LinkFileList
+c000000004CD9398300000000000001A1
+t1289304451
+s417
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o
+t1289304453
+s46532
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o
+t1289304453
+s41268
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o
+t1289304453
+s6416
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app
+t1289304578
+s374
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM
+t1289304453
+s102
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+t1289304453
+s52080
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCameraViewController.nib
+t1289304452
+s1269
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/Info.plist
+t1289304451
+s744
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/MainWindow.nib
+t1289304452
+s1689
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/PkgInfo
+t1289304451
+s8
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/ResourceRules.plist
+t1289304451
+s485
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+t1289304453
+s9497
+
+N/Users/nirajpendal/Desktop/vTerview/FrontCamera/main.m
+c000000004CD27718000000000000016E
+t1288861464
+s366
+i<UIKit/UIKit.h>
+
+N/Users/nirajpendal/Library/MobileDevice/Provisioning Profiles/370BFCD6-293D-478C-B12C-ABFA49727FEA.mobileprovision
+c000000004CAB15440000000000002519
+t1286280516
+s9497
+
+N/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-amympudjplcwmhecgkjtxrlgbgvu/FrontCamera_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-asqckcojayuetzaucainhfxkumzc/FrontCamera_Prefix.pch.gch
+t1289304453
+s9651760
+
+N/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-azhnsxpczxyfqybvhgkpyqiplxsi/FrontCamera_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-bhpbmsalyzkddjbznoopqmmfopot/FrontCamera_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-ciigkdiilasyradtssxbnvhpugvu/FrontCamera_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dyurbukfsqgerehddztmlalkhnuq/FrontCamera_Prefix.pch.gch
+t1289304453
+s10110512
+
+N/var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-fipuzjftbshmfraamtblsdmleaab/FrontCamera_Prefix.pch.gch
+t1292587176
+s9651760
+
+N/var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-gjmjragbrsvytgerdurboqyrrgjr/FrontCamera_Prefix.pch.gch
+t1292587176
+s10110512
+
+NFrontCamera-Info.plist
+c000000004D2D6A37000000000000036C
+t1294821943
+s876
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314283275#314283275#0(0"0(0#1#0"8649065024#0"0#
+
+CCodeSign /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+s314283276.946105
+e314283277.746726
+r1
+xCodeSign
+x/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+lSLF07#2@47"CodeSign build/Release-iphoneos/FrontCamera.app314283276#314283277#0(0"0(0#0#71"/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app8651670752#651"    cd /Users/mihir/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: InfoStretch Corporation" --resource-rules=/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/ResourceRules.plist --entitlements /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app0#
+
+CCodeSign /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+s310997377.902236
+e310997378.095001
+r1
+xCodeSign
+x/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+o/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app: replacing existing signature
+lSLF07#2@47"CodeSign build/Release-iphoneos/FrontCamera.app310997377#310997378#0(108"/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app: replacing existing signature0(0#0#77"/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app8636882784#675"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: InfoStretch Corporation" --resource-rules=/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/ResourceRules.plist --entitlements /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app0#
+
+CCodeSign /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app
+r0
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/CameraView.o /Users/mihir/Desktop/FrontCamera/Classes/CameraView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s314279977.256755
+e314279977.365489
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/CameraView.o
+x/Users/mihir/Desktop/FrontCamera/Classes/CameraView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/mihir/Desktop/FrontCamera/Classes/CameraView.m314279977#314279977#0(0"0(0#0#53"/Users/mihir/Desktop/FrontCamera/Classes/CameraView.m8638521280#1817"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv6 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-fipuzjftbshmfraamtblsdmleaab/FrontCamera_Prefix.pch -c /Users/mihir/Desktop/FrontCamera/Classes/CameraView.m -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/CameraView.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/CameraView.o /Users/nirajpendal/Desktop/FrontCamera/Classes/CameraView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s314279977.024078
+e314279977.256645
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o
+x/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m314279977#314279977#0(0"0(0#0#65"/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m8637605888#1841"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv6 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-fipuzjftbshmfraamtblsdmleaab/FrontCamera_Prefix.pch -c /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310997253.305444
+e310997253.475849
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o
+x/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m310997253#310997253#0(0"0(0#0#71"/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m8636596896#1909"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -I/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv6 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-asqckcojayuetzaucainhfxkumzc/FrontCamera_Prefix.pch -c /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraAppDelegate.o /Users/nirajpendal/Desktop/vTerview/FrontCamera/Classes/FrontCameraAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s314283276.240964
+e314283276.468847
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o
+x/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m314283276#314283276#0(0"0(0#0#68"/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m8651624672#1847"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv6 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-fipuzjftbshmfraamtblsdmleaab/FrontCamera_Prefix.pch -c /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310997253.427837
+e310997253.545573
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o
+x/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m310997253#310997253#0(0"0(0#0#74"/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m8628885568#1915"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -I/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv6 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-asqckcojayuetzaucainhfxkumzc/FrontCamera_Prefix.pch -c /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCameraViewController.o /Users/nirajpendal/Desktop/vTerview/FrontCamera/Classes/FrontCameraViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o /Users/mihir/Desktop/FrontCamera/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s314279977.022646
+e314279977.182161
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o
+x/Users/mihir/Desktop/FrontCamera/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/mihir/Desktop/FrontCamera/main.m314279977#314279977#0(0"0(0#0#39"/Users/mihir/Desktop/FrontCamera/main.m8606849888#1797"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv6 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-fipuzjftbshmfraamtblsdmleaab/FrontCamera_Prefix.pch -c /Users/mihir/Desktop/FrontCamera/main.m -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o /Users/nirajpendal/Desktop/FrontCamera/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310997253.303953
+e310997253.427735
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o
+x/Users/nirajpendal/Desktop/FrontCamera/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/nirajpendal/Desktop/FrontCamera/main.m310997253#310997253#0(0"0(0#0#45"/Users/nirajpendal/Desktop/FrontCamera/main.m8606110368#1865"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -I/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv6 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-asqckcojayuetzaucainhfxkumzc/FrontCamera_Prefix.pch -c /Users/nirajpendal/Desktop/FrontCamera/main.m -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/main.o /Users/nirajpendal/Desktop/vTerview/FrontCamera/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/CameraView.o /Users/mihir/Desktop/FrontCamera/Classes/CameraView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s314279977.595212
+e314279977.692571
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/CameraView.o
+x/Users/mihir/Desktop/FrontCamera/Classes/CameraView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/mihir/Desktop/FrontCamera/Classes/CameraView.m314279977#314279977#0(0"0(0#0#53"/Users/mihir/Desktop/FrontCamera/Classes/CameraView.m8638435136#1817"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv7 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-gjmjragbrsvytgerdurboqyrrgjr/FrontCamera_Prefix.pch -c /Users/mihir/Desktop/FrontCamera/Classes/CameraView.m -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/CameraView.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/CameraView.o /Users/nirajpendal/Desktop/FrontCamera/Classes/CameraView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s314279977.457105
+e314279977.595101
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o
+x/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m314279977#314279977#0(0"0(0#0#65"/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m8590450656#1841"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv7 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-gjmjragbrsvytgerdurboqyrrgjr/FrontCamera_Prefix.pch -c /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310997253.533640
+e310997253.644951
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o
+x/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m310997253#310997253#0(0"0(0#0#71"/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m8637274400#1909"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -I/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv7 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dyurbukfsqgerehddztmlalkhnuq/FrontCamera_Prefix.pch -c /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraAppDelegate.o /Users/nirajpendal/Desktop/vTerview/FrontCamera/Classes/FrontCameraAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s314283276.306426
+e314283276.683781
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o
+x/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m314283276#314283276#0(0"0(0#0#68"/Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m8650610944#1847"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv7 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-gjmjragbrsvytgerdurboqyrrgjr/FrontCamera_Prefix.pch -c /Users/mihir/Desktop/FrontCamera/Classes/FrontCameraViewController.m -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310997253.617581
+e310997253.716821
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o
+x/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m310997253#310997253#0(0"0(0#0#74"/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m8629559776#1915"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -I/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv7 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dyurbukfsqgerehddztmlalkhnuq/FrontCamera_Prefix.pch -c /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCameraViewController.o /Users/nirajpendal/Desktop/vTerview/FrontCamera/Classes/FrontCameraViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o /Users/mihir/Desktop/FrontCamera/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s314279977.365604
+e314279977.456992
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o
+x/Users/mihir/Desktop/FrontCamera/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/mihir/Desktop/FrontCamera/main.m314279977#314279977#0(0"0(0#0#39"/Users/mihir/Desktop/FrontCamera/main.m8622270400#1797"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv7 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-gjmjragbrsvytgerdurboqyrrgjr/FrontCamera_Prefix.pch -c /Users/mihir/Desktop/FrontCamera/main.m -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o /Users/nirajpendal/Desktop/FrontCamera/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310997253.475954
+e310997253.533546
+r1
+xCompileC
+xbuild/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o
+x/Users/nirajpendal/Desktop/FrontCamera/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/nirajpendal/Desktop/FrontCamera/main.m310997253#310997253#0(0"0(0#0#45"/Users/nirajpendal/Desktop/FrontCamera/main.m8605202816#1865"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -I/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv7 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dyurbukfsqgerehddztmlalkhnuq/FrontCamera_Prefix.pch -c /Users/nirajpendal/Desktop/FrontCamera/main.m -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/main.o /Users/nirajpendal/Desktop/vTerview/FrontCamera/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/mihir/Desktop/FrontCamera/Classes/CameraView.xib
+s314279974.551145
+e314279975.167215
+r1
+xCompileXIB
+x/Users/mihir/Desktop/FrontCamera/Classes/CameraView.xib
+lSLF07#2@33"CompileXIB Classes/CameraView.xib314279974#314279975#0(0"0(0#0#55"/Users/mihir/Desktop/FrontCamera/Classes/CameraView.xib8632906528#538"    cd /Users/mihir/Desktop/FrontCamera    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/CameraView.nib /Users/mihir/Desktop/FrontCamera/Classes/CameraView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/mihir/Desktop/FrontCamera/FrontCameraViewController.xib
+s314279974.550314
+e314279975.060499
+r1
+xCompileXIB
+x/Users/mihir/Desktop/FrontCamera/FrontCameraViewController.xib
+lSLF07#2@40"CompileXIB FrontCameraViewController.xib314279974#314279975#0(0"0(0#0#62"/Users/mihir/Desktop/FrontCamera/FrontCameraViewController.xib8633050496#560"    cd /Users/mihir/Desktop/FrontCamera    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCameraViewController.nib /Users/mihir/Desktop/FrontCamera/FrontCameraViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/mihir/Desktop/FrontCamera/MainWindow.xib
+r0
+
+CCompileXIB /Users/nirajpendal/Desktop/FrontCamera/Classes/CameraView.xib
+r0
+
+CCompileXIB /Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib
+s310997251.804558
+e310997252.294132
+r1
+xCompileXIB
+x/Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib
+lSLF07#2@40"CompileXIB FrontCameraViewController.xib310997251#310997252#0(0"0(0#0#68"/Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib8624472192#580"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCameraViewController.nib /Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib
+s310997251.803417
+e310997252.278759
+r1
+xCompileXIB
+x/Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib310997251#310997252#0(0"0(0#0#53"/Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib8626753504#550"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/MainWindow.nib /Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/nirajpendal/Desktop/vTerview/FrontCamera/FrontCameraViewController.xib
+r0
+
+CCompileXIB /Users/nirajpendal/Desktop/vTerview/FrontCamera/MainWindow.xib
+r0
+
+CCopyPNGFile /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/green.png green.png
+s314283275.827081
+e314283276.240408
+r1
+xCopyPNGFile
+x/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/green.png
+xgreen.png
+o
+oWhile reading /Users/mihir/Desktop/FrontCamera/green.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/green.png
+lSLF07#2@70"CopyPNGFile build/Release-iphoneos/FrontCamera.app/green.png green.png314283275#314283276#0(212"While reading /Users/mihir/Desktop/FrontCamera/green.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/green.png0(0#0#42"/Users/mihir/Desktop/FrontCamera/green.png8648099584#546"    cd /Users/mihir/Desktop/FrontCamera    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mihir/Desktop/FrontCamera/green.png /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/green.png0#
+
+CCopyPNGFile /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/green.png green.png
+r0
+
+CCpResource build/Release-iphoneos/FrontCamera.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s310997251.771452
+e310997251.803300
+r1
+xCpResource
+xbuild/Release-iphoneos/FrontCamera.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist310997251#310997251#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8629135744#507"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app0#
+
+CCpResource build/Release-iphoneos/FrontCamera.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera normal "armv6 armv7"
+s314283276.769546
+e314283276.773820
+r1
+xCreateUniversalBinary
+x/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary build/Release-iphoneos/FrontCamera.app/FrontCamera normal "armv6 armv7"314283276#314283276#0(0"0(0#0#44"/Users/mihir/Desktop/FrontCamera/armv6 armv78642230560#532"    cd /Users/mihir/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera -output /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera0#
+
+CCreateUniversalBinary /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera normal "armv6 armv7"
+s310997253.743015
+e310997253.764948
+r1
+xCreateUniversalBinary
+x/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary build/Release-iphoneos/FrontCamera.app/FrontCamera normal "armv6 armv7"310997253#310997253#0(0"0(0#0#50"/Users/nirajpendal/Desktop/FrontCamera/armv6 armv78636520160#556"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera -output /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera0#
+
+CCreateUniversalBinary /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+s314283276.773914
+e314283276.932843
+r1
+xGenerateDSYMFile
+x/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM
+x/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+lSLF07#2@111"GenerateDSYMFile build/Release-iphoneos/FrontCamera.app.dSYM build/Release-iphoneos/FrontCamera.app/FrontCamera314283276#314283276#0(0"0(0#0#83"/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera8651545824#360"    cd /Users/mihir/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera -o /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM0#
+
+CGenerateDSYMFile /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+s310997253.765057
+e310997253.929268
+r1
+xGenerateDSYMFile
+x/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM
+x/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+lSLF07#2@111"GenerateDSYMFile build/Release-iphoneos/FrontCamera.app.dSYM build/Release-iphoneos/FrontCamera.app/FrontCamera310997253#310997253#0(0"0(0#0#89"/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera8635654752#378"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera -o /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM0#
+
+CGenerateDSYMFile /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app.dSYM /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/FrontCamera
+r0
+
+CLd /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera normal armv6
+s314283276.468950
+e314283276.767918
+r1
+xLd
+x/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera
+xnormal
+xarmv6
+lSLF07#2@129"Link /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera314283276#314283276#0(0"0(0#0#0"8648263424#891"    cd /Users/mihir/Desktop/FrontCamera    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -filelist /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework MobileCoreServices -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera0#
+
+CLd /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera normal armv7
+s314283276.683995
+e314283276.769450
+r1
+xLd
+x/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera
+xnormal
+xarmv7
+lSLF07#2@129"Link /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera314283276#314283276#0(0"0(0#0#0"8645859360#891"    cd /Users/mihir/Desktop/FrontCamera    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -filelist /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework MobileCoreServices -o /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera0#
+
+CLd /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera normal armv6
+s310997253.545668
+e310997253.617481
+r1
+xLd
+x/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera
+xnormal
+xarmv6
+lSLF07#2@135"Link /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera310997253#310997253#0(0"0(0#0#0"8636510464#925"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -filelist /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera.LinkFileList -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MobileCoreServices -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera0#
+
+CLd /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera normal armv7
+s310997253.716916
+e310997253.742909
+r1
+xLd
+x/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera
+xnormal
+xarmv7
+lSLF07#2@135"Link /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera310997253#310997253#0(0"0(0#0#0"8636993152#925"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -filelist /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera.LinkFileList -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MobileCoreServices -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera0#
+
+CLd /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv6/FrontCamera normal armv6
+r0
+
+CLd /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/Objects-normal/armv7/FrontCamera normal armv7
+r0
+
+CProcessInfoPlistFile /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/Info.plist FrontCamera-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/Info.plist FrontCamera-Info.plist
+s310997251.772636
+e310997251.785792
+r1
+xProcessInfoPlistFile
+x/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/Info.plist
+xFrontCamera-Info.plist
+lSLF07#2@30"Process FrontCamera-Info.plist310997251#310997251#0(0"0(0#0#61"/Users/nirajpendal/Desktop/FrontCamera/FrontCamera-Info.plist8627560704#584"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FrontCamera-Info.plist -genpkginfo /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/ResourceRules.plist -o /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/Info.plist FrontCamera-Info.plist
+r0
+
+CProcessPCH /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-amympudjplcwmhecgkjtxrlgbgvu/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-asqckcojayuetzaucainhfxkumzc/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310997252.294257
+e310997253.303642
+r1
+xProcessPCH
+x/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-asqckcojayuetzaucainhfxkumzc/FrontCamera_Prefix.pch.gch
+xFrontCamera_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FrontCamera_Prefix.pch310997252#310997253#0(0"0(0#0#61"/Users/nirajpendal/Desktop/FrontCamera/FrontCamera_Prefix.pch8601821312#1757"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -I/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv6 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/nirajpendal/Desktop/FrontCamera/FrontCamera_Prefix.pch -o /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-asqckcojayuetzaucainhfxkumzc/FrontCamera_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-azhnsxpczxyfqybvhgkpyqiplxsi/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-bhpbmsalyzkddjbznoopqmmfopot/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-ciigkdiilasyradtssxbnvhpugvu/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dyurbukfsqgerehddztmlalkhnuq/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310997252.295314
+e310997253.176556
+r1
+xProcessPCH
+x/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dyurbukfsqgerehddztmlalkhnuq/FrontCamera_Prefix.pch.gch
+xFrontCamera_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FrontCamera_Prefix.pch310997252#310997253#0(0"0(0#0#61"/Users/nirajpendal/Desktop/FrontCamera/FrontCamera_Prefix.pch8636735680#1757"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos -I/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv7 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/nirajpendal/Desktop/FrontCamera/FrontCamera_Prefix.pch -o /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dyurbukfsqgerehddztmlalkhnuq/FrontCamera_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-fipuzjftbshmfraamtblsdmleaab/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s314279975.377027
+e314279977.022515
+r1
+xProcessPCH
+x/var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-fipuzjftbshmfraamtblsdmleaab/FrontCamera_Prefix.pch.gch
+xFrontCamera_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FrontCamera_Prefix.pch314279975#314279977#0(0"0(0#0#55"/Users/mihir/Desktop/FrontCamera/FrontCamera_Prefix.pch8623753056#1695"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv6 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/mihir/Desktop/FrontCamera/FrontCamera_Prefix.pch -o /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-fipuzjftbshmfraamtblsdmleaab/FrontCamera_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-gjmjragbrsvytgerdurboqyrrgjr/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s314279975.378116
+e314279976.786111
+r1
+xProcessPCH
+x/var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-gjmjragbrsvytgerdurboqyrrgjr/FrontCamera_Prefix.pch.gch
+xFrontCamera_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FrontCamera_Prefix.pch314279975#314279976#0(0"0(0#0#55"/Users/mihir/Desktop/FrontCamera/FrontCamera_Prefix.pch8611131040#1695"    cd /Users/mihir/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos -I/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/include -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources/armv7 -I/Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/mihir/Desktop/FrontCamera/FrontCamera_Prefix.pch -o /var/folders/bl/blBRD659FqCugMl3MXlDI++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/FrontCamera_Prefix-gjmjragbrsvytgerdurboqyrrgjr/FrontCamera_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/mihir/Library/MobileDevice/Provisioning Profiles/5F3362A7-7DFB-43FD-9563-B6824F4BEC60.mobileprovision" /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging "/Users/mihir/Library/MobileDevice/Provisioning Profiles/CEB8CA12-D481-4F68-BB9C-4E07B6EACEB1.mobileprovision" /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+s314280079.569690
+e314280079.571314
+r1
+xProcessProductPackaging
+x/Users/mihir/Library/MobileDevice/Provisioning Profiles/CEB8CA12-D481-4F68-BB9C-4E07B6EACEB1.mobileprovision
+x/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+lSLF07#2@198"ProcessProductPackaging "/Users/mihir/Library/MobileDevice/Provisioning Profiles/CEB8CA12-D481-4F68-BB9C-4E07B6EACEB1.mobileprovision" build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision314280079#314280079#0(0"0(0#0#96"/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision8632162816#417"    cd /Users/mihir/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mihir/Library/MobileDevice/Provisioning Profiles/CEB8CA12-D481-4F68-BB9C-4E07B6EACEB1.mobileprovision" -o /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/nirajpendal/Library/MobileDevice/Provisioning Profiles/370BFCD6-293D-478C-B12C-ABFA49727FEA.mobileprovision" /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+s310997253.929424
+e310997253.989511
+r1
+xProcessProductPackaging
+x/Users/nirajpendal/Library/MobileDevice/Provisioning Profiles/370BFCD6-293D-478C-B12C-ABFA49727FEA.mobileprovision
+x/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/nirajpendal/Library/MobileDevice/Provisioning Profiles/370BFCD6-293D-478C-B12C-ABFA49727FEA.mobileprovision" build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision310997253#310997253#0(0"0(0#0#102"/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision8623809536#435"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/nirajpendal/Library/MobileDevice/Provisioning Profiles/370BFCD6-293D-478C-B12C-ABFA49727FEA.mobileprovision" -o /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/nirajpendal/Library/MobileDevice/Provisioning Profiles/370BFCD6-293D-478C-B12C-ABFA49727FEA.mobileprovision" /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/mihir/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent
+s310997254.003956
+e310997254.014026
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent
+lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent310997254#310997254#0(0"0(0#0#115"/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent8627095008#446"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/FrontCamera.build/Release-iphoneos/FrontCamera.build/FrontCamera.xcent
+r0
+
+CTouch /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+s314283276.933074
+e314283276.945931
+r1
+xTouch
+x/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+lSLF07#2@77"Touch /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app314283276#314283276#0(0"0(0#0#0"8648845984#258"    cd /Users/mihir/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app0#
+
+CTouch /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+s310997253.989607
+e310997254.003847
+r1
+xTouch
+x/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+lSLF07#2@83"Touch /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app310997253#310997254#0(0"0(0#0#0"8605268576#270"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app0#
+
+CTouch /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app
+r0
+
+CValidate /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+s314283277.746926
+e314283278.074139
+r1
+xValidate
+x/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@47"Validate build/Release-iphoneos/FrontCamera.app314283277#314283278#0(263"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)Unable to validate your application. - (null)1(22@207" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)314283278#18446744073709551615#0#0(6@0"314283278#0#0#0#0#0"0(0#0#71"/Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app8651884128#367"    cd /Users/mihir/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/mihir/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app0#
+
+CValidate /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+s310997378.095086
+e310997378.224889
+r1
+xValidate
+x/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@47"Validate build/Release-iphoneos/FrontCamera.app310997378#310997378#0(263"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)Unable to validate your application. - (null)1(22@207" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)310997378#18446744073709551615#0#0(6@0"310997378#0#0#0#0#0"0(0#0#77"/Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app8637690528#379"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/nirajpendal/Desktop/FrontCamera/build/Release-iphoneos/FrontCamera.app0#
+
+CValidate /Users/nirajpendal/Desktop/vTerview/FrontCamera/build/Release-iphoneos/FrontCamera.app
+r0
+

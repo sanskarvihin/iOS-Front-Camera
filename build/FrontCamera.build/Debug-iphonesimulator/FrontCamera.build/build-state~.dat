@@ -1,0 +1,249 @@
+TFrontCamera
+v7
+r0
+t310564474.270205
+cCheck dependencies
+cProcessInfoPlistFile /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/Info.plist FrontCamera-Info.plist
+cCompileXIB /Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib
+cCompileXIB /Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib
+cProcessPCH /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dbysqsapfihkyrdekhttlklwxzie/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/main.o /Users/nirajpendal/Desktop/FrontCamera/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraAppDelegate.o /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraViewController.o /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C6A73C80000000000000132
+t1282044872
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004BFF3B7800000000000000EB
+t1275018104
+s235
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004BFF3B790000000000055950
+t1275018105
+s350544
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.h
+c000000004CD2771800000000000001F8
+t1288861464
+s504
+i<UIKit/UIKit.h>
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m
+c000000004CD277180000000000000AA0
+t1288861464
+s2720
+i"FrontCameraAppDelegate.h"
+i"FrontCameraViewController.h"
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.h
+c000000004CD29EF7000000000000012E
+t1288871671
+s302
+i<UIKit/UIKit.h>
+i<MobileCoreServices/MobileCoreServices.h>
+
+N/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m
+c000000004CD29EB50000000000000A9C
+t1288871605
+s2716
+i"FrontCameraViewController.h"
+
+N/Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib
+c000000004CD277180000000000001A55
+t1288861464
+s6741
+
+N/Users/nirajpendal/Desktop/FrontCamera/FrontCamera_Prefix.pch
+c000000004CD2771800000000000000BF
+t1288861464
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib
+c000000004CD277180000000000004E59
+t1288861464
+s20057
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app
+t2
+s0
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app.dSYM
+t2
+s0
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/FrontCamera
+t2
+s0
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/FrontCameraViewController.nib
+t1288871673
+s795
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/Info.plist
+t1288871672
+s607
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/MainWindow.nib
+t1288871673
+s1131
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/PkgInfo
+t1288871672
+s8
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCamera.LinkFileList
+c000000004CD29EF800000000000001AD
+t1288871672
+s429
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraAppDelegate.o
+t1288871674
+s47960
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraViewController.o
+t2
+s0
+
+N/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/main.o
+t1288871674
+s6304
+
+N/Users/nirajpendal/Desktop/FrontCamera/main.m
+c000000004CD27718000000000000016E
+t1288861464
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dbysqsapfihkyrdekhttlklwxzie/FrontCamera_Prefix.pch.gch
+t1288871673
+s15232016
+
+NFrontCamera-Info.plist
+c000000004CD27718000000000000038D
+t1288861464
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310564472#310564472#0(0"0(0#1#0"8644550496#0"0#
+
+CCompileC build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraAppDelegate.o /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310564474.127414
+e310564474.251260
+r1
+xCompileC
+xbuild/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraAppDelegate.o
+x/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m310564474#310564474#0(0"0(0#0#71"/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m8648769120#2025"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator -I/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/DerivedSources/i386 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/DerivedSources -include /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dbysqsapfihkyrdekhttlklwxzie/FrontCamera_Prefix.pch -c /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraAppDelegate.m -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraAppDelegate.o0#
+
+CCompileC build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraViewController.o /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310564474.238437
+e310564474.270129
+r0
+xCompileC
+xbuild/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraViewController.o
+x/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m: In function '-[FrontCameraViewController viewDidLoad]':
+o/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m:37: error: expected ':' before ';' token
+o/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m:61: confused by earlier errors, bailing out
+lSLF07#2@82"Compile /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m310564474#310564474#0(367"/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m: In function '-[FrontCameraViewController viewDidLoad]':/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m:37: error: expected ':' before ';' token/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m:61: confused by earlier errors, bailing out2(4@29"Expected ':' before ';' token310564474#132#116#0(6@74"/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m310564405#37#0#37#0#19"expected * before *0(4@39"Confused by earlier errors, bailing out310564474#248#119#0(6@74"/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m310564405#61#0#61#0#39"confused by earlier errors, bailing out0(0#0#74"/Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m8647528576#2031"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator -I/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/DerivedSources/i386 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/DerivedSources -include /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dbysqsapfihkyrdekhttlklwxzie/FrontCamera_Prefix.pch -c /Users/nirajpendal/Desktop/FrontCamera/Classes/FrontCameraViewController.m -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/FrontCameraViewController.o1#
+
+CCompileC build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/main.o /Users/nirajpendal/Desktop/FrontCamera/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310564474.125975
+e310564474.238241
+r1
+xCompileC
+xbuild/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/main.o
+x/Users/nirajpendal/Desktop/FrontCamera/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/nirajpendal/Desktop/FrontCamera/main.m310564474#310564474#0(0"0(0#0#45"/Users/nirajpendal/Desktop/FrontCamera/main.m8647714720#1981"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator -I/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/DerivedSources/i386 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/DerivedSources -include /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dbysqsapfihkyrdekhttlklwxzie/FrontCamera_Prefix.pch -c /Users/nirajpendal/Desktop/FrontCamera/main.m -o /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib
+s310564472.700704
+e310564473.169766
+r1
+xCompileXIB
+x/Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib
+lSLF07#2@40"CompileXIB FrontCameraViewController.xib310564472#310564473#0(0"0(0#0#68"/Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib8644041408#604"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/FrontCameraViewController.nib /Users/nirajpendal/Desktop/FrontCamera/FrontCameraViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib
+s310564472.699991
+e310564473.197531
+r1
+xCompileXIB
+x/Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib310564472#310564473#0(0"0(0#0#53"/Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib8644523232#574"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/MainWindow.nib /Users/nirajpendal/Desktop/FrontCamera/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app.dSYM /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/FrontCamera
+r0
+
+CLd /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/FrontCamera normal i386
+r0
+
+CProcessInfoPlistFile /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/Info.plist FrontCamera-Info.plist
+s310564472.696921
+e310564472.699915
+r1
+xProcessInfoPlistFile
+x/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/Info.plist
+xFrontCamera-Info.plist
+lSLF07#2@30"Process FrontCamera-Info.plist310564472#310564472#0(0"0(0#0#61"/Users/nirajpendal/Desktop/FrontCamera/FrontCamera-Info.plist8645089056#491"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FrontCamera-Info.plist -genpkginfo /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app/Info.plist0#
+
+CProcessPCH /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dbysqsapfihkyrdekhttlklwxzie/FrontCamera_Prefix.pch.gch FrontCamera_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310564473.197654
+e310564474.125881
+r1
+xProcessPCH
+x/var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dbysqsapfihkyrdekhttlklwxzie/FrontCamera_Prefix.pch.gch
+xFrontCamera_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FrontCamera_Prefix.pch310564473#310564474#0(0"0(0#0#61"/Users/nirajpendal/Desktop/FrontCamera/FrontCamera_Prefix.pch8649019488#1869"    cd /Users/nirajpendal/Desktop/FrontCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-generated-files.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-own-target-headers.hmap -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-all-target-headers.hmap -iquote /Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/FrontCamera-project-headers.hmap -F/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator -I/Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/include -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/DerivedSources/i386 -I/Users/nirajpendal/Desktop/FrontCamera/build/FrontCamera.build/Debug-iphonesimulator/FrontCamera.build/DerivedSources -c /Users/nirajpendal/Desktop/FrontCamera/FrontCamera_Prefix.pch -o /var/folders/7L/7LN5NO-1G+Gox0GJQxvA6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrontCamera_Prefix-dbysqsapfihkyrdekhttlklwxzie/FrontCamera_Prefix.pch.gch0#
+
+CTouch /Users/nirajpendal/Desktop/FrontCamera/build/Debug-iphonesimulator/FrontCamera.app
+r0
+

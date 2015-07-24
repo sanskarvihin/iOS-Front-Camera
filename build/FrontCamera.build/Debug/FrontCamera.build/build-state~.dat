@@ -1,0 +1,80 @@
+TFrontCamera
+v7
+r1
+cCheck dependencies
+
+N/Users/mihir/Desktop/FrontCamera/Classes/CameraView.xib
+c000000004D0862560000000000001859
+t1292395094
+s6233
+
+N/Users/mihir/Desktop/FrontCamera/FrontCameraViewController.xib
+c000000004D01B4C10000000000002588
+t1291957441
+s9608
+
+N/Users/mihir/Desktop/FrontCamera/MainWindow.xib
+c000000004CD277180000000000004E59
+t1288861464
+s20057
+
+N/Users/mihir/Desktop/FrontCamera/build/Debug/FrontCamera.app
+t2
+s0
+
+N/Users/mihir/Desktop/FrontCamera/build/Debug/FrontCamera.app/Contents/Info.plist
+t2
+s0
+
+N/Users/mihir/Desktop/FrontCamera/build/Debug/FrontCamera.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/mihir/Desktop/FrontCamera/build/Debug/FrontCamera.app/Contents/Resources/CameraView.nib
+t2
+s0
+
+N/Users/mihir/Desktop/FrontCamera/build/Debug/FrontCamera.app/Contents/Resources/FrontCameraViewController.nib
+t2
+s0
+
+N/Users/mihir/Desktop/FrontCamera/build/Debug/FrontCamera.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/mihir/Desktop/FrontCamera/build/Debug/FrontCamera.app/Contents/Resources/green.png
+t2
+s0
+
+N/Users/mihir/Desktop/FrontCamera/green.png
+c000000004D0B3F140000000000000B0F
+t1292582676
+s2831
+
+NFrontCamera-Info.plist
+c000000004CD29FF7000000000000038D
+t1288871927
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314275827#314275827#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.2'1(4@58"error: There is no SDK with the name or path 'iphoneos4.2'314275827#18446744073709551615#0#0(1@0"0(0#1#0"32651522506817640#0"0#
+
+CCompileXIB /Users/mihir/Desktop/FrontCamera/Classes/CameraView.xib
+r0
+
+CCompileXIB /Users/mihir/Desktop/FrontCamera/FrontCameraViewController.xib
+r0
+
+CCompileXIB /Users/mihir/Desktop/FrontCamera/MainWindow.xib
+r0
+
+CCpResource build/Debug/FrontCamera.app/Contents/Resources/green.png green.png
+r0
+
+CProcessInfoPlistFile /Users/mihir/Desktop/FrontCamera/build/Debug/FrontCamera.app/Contents/Info.plist FrontCamera-Info.plist
+r0
+
+CTouch /Users/mihir/Desktop/FrontCamera/build/Debug/FrontCamera.app
+r0
+
